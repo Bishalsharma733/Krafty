@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
+import notification-alert from "./components/notification-alert";
 
 const Container = styled.div`
   height: 100vh;
@@ -48,6 +49,7 @@ const App = () => {
       <Container>
         <Navbar />
         <Intro />
+      <notification-alert />
         <IntoShape />
       </Container>
       <Container>
