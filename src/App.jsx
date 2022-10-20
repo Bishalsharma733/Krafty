@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
+import login from "./components/login";
 import notification-alert from "./components/notification-alert";
 
 const Container = styled.div`
